@@ -4,6 +4,7 @@
 
 
 {% block content %}
+    <a class="back-button" href="{{ post.get_absolute_url }}">Back</a>
     {% if sent %}
         <h1>E-mail successfully sent</h1>
         <p>
