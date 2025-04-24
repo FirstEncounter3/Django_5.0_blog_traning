@@ -111,6 +111,7 @@ input[type=submit] {
     white-space: nowrap;
     vertical-align: middle;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: .5rem;
 }
 
 .back-button:hover {
